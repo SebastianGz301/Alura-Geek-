@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Stromtrooper",
+      "precio": "$ 60,00",
+      "imagen": "/assets/Skill.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Game Boy Classic",
+      "precio": "$ 90,00",
+      "imagen": "/assets/gameboy.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Stromtrooper",
+      "precio": "$ 60,00",
+      "imagen": "/assets/Skill.png"
+    },
+    {
+      "id": "4",
+      "nombre": "Stromtrooper",
+      "precio": "$ 60,00",
+      "imagen": "/assets/Skill.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Stromtrooper",
+      "precio": "$ 60,00",
+      "imagen": "/assets/Skill.png"
+    },
+    {
+      "id": "6",
+      "nombre": "Game Boy Classic",
+      "precio": "$ 90,00",
+      "imagen": "/assets/gameboy.png"
+    },
+    {
+      "id": "7",
+      "nombre": "Game Boy Classic",
+      "precio": "$ 90,00",
+      "imagen": "/assets/gameboy.png"
+    },
+    {
+      "id": "8",
+      "nombre": "Game Boy Classic",
+      "precio": "$ 90,00",
+      "imagen": "/assets/gameboy.png"
+    },
+    {
+      "id": "9",
+      "nombre": "Game Boy Classic",
+      "precio": "$ 90,00",
+      "imagen": "/assets/gameboy.png"
+    },
+    {
+      "id": "b549",
+      "nombre": "RED DEAD REDEMPTION 2 GAME",
+      "precio": "$70,00",
+      "imagen": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
+    }
+  ]
+}

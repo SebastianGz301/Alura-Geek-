@@ -1,0 +1,242 @@
+:root {
+    --btn-color: #03318c;
+    --main-color: #5D04D9;
+    --rose-color: #9303A6;
+    --rose2-color: #C004D9;
+    --color-xd: #8C0375;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: "Press Start 2P" system-ui;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+header{
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 10px gray
+}
+
+.logo_header{
+    width: 374px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-left: 605px;
+    padding: 15px;
+}
+
+.title_Header {
+    font-family: "Press Start 2P", system-ui;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-left: 870px;
+    position: absolute;
+    margin-top: 36px;
+    font-size: 1.4rem;
+}
+
+.title_productos h2{
+    position: relative;
+    bottom: -70px;
+    right: 20px;
+    /* border: 5px solid var(--btn-color); */
+    font-family: "Press Start 2P", system-ui;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
+    z-index: 1000;
+}
+
+.section_productos{
+    display: flex;
+    margin-top: 120px;
+    padding: 20px;
+    margin-left: -840px;
+    max-width: 700px;
+    height: 700px;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px gray
+    
+}
+
+
+.productos_container{
+    display: flex;
+    list-style: none;    
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-y: auto;
+
+}
+
+.card_producto{
+    position: relative;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 4px solid black;
+    background: var(--main-color);
+    border-radius: 5%;
+    max-height: 240px;
+    max-width: 176px;
+}
+
+
+.card_producto .img_producto{
+    width: 176px;
+    height: 174px;
+    border-radius: 2%;
+    border: 0.1px solid black;
+
+}
+
+.card_producto .descripcion{
+    font-family: "IBM Plex Mono", monospace;
+    color: #FFFFFF;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.card_producto .precio{
+    font-family: "IBM Plex Mono", monospace;
+    color: #FFFFFF;
+    padding: 10px;
+    padding-top: 1px;
+    font-weight: bold;
+}
+
+.card_producto .delete_icon{
+    height: 20px;
+    width: 20px;
+    padding-left: 150px;
+    position: absolute;
+    margin-top: -27px;
+    cursor: pointer;
+}
+
+.card_producto .delete_icon:hover{
+    opacity: 0.8;
+}
+
+
+/* Formulario Agregar Producto */
+
+.section_send_productos {
+    margin-top: 120px;
+    margin-right: 130px;
+    padding: 20px;
+    margin-left: 40px;
+    max-width: 700px;
+}
+
+
+.section_send_productos h2 {
+    font-family: "Press Start 2P", system-ui;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 50px;
+    
+}
+
+.form_cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_cards input {
+    margin-bottom: 45px;
+    height: 35px;
+    padding: 10px;
+    border: 4px solid var(--btn-color);
+    border-radius: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 17px;
+}
+
+.form_cards input::placeholder{
+    color: var(--btn-color);
+}
+
+.form_cards button {
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form_cards .send {
+    background-color: var(--btn-color);
+    color: white;
+}
+
+.form_cards .clean {
+    background: #FFFFFF;
+    color: var(--btn-color);
+    border: 3px solid var(--btn-color);
+}
+
+.form_cards button:hover {
+    opacity: 0.9;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--main-color);
+    height: 232px;
+    margin-top: 90px;
+    box-shadow: 0px -5px 20px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 80px; /* Ajusta el espacio entre el logo y el título */
+    position: absolute;
+    left: 37%; 
+}
+
+.footer h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px; /* Ajusta el espacio entre el título y el siguiente elemento */
+}
+
+.footer .dev, .footer .p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px; /* Ajusta el espacio entre los párrafos */
+}
+
+.footer .p {
+    opacity: 0.6;
+}
