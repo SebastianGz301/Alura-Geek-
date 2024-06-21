@@ -1,36 +1,8 @@
-// import { conexionAPI } from "./conexionApi";
-
-// const productos = document.querySelector("[data-productos]");
-
-// export default function crearCard(nombre, precio, imagen) {
-//     const producto = document.createElement("div");
-//     producto.className = "card_producto";
-//     producto.innerHTML = `
-//                     <img src="${imagen}" alt="imagen Producto">
-//                     <p class="${nombre}">Stormtropper</p>
-//                     <p class="${precio}">$ 60,00</p>
-//                     <img class="delete_icon" src="/assets/Vector.svg" alt="Delete">`;
-
-//     return producto;
-// }
-
-// async function listarProductos(){
-//     try{
-//         const listAPI =  await conexionAPI.listarProductos();
-//     listAPI.forEach(producto =>productos.appendChild (crearCard(producto.nombre,producto.precio,producto.imagen)));
-//     }
-//     catch{
-//         alert("ERROR no se pudo conectar con la API");
-//     }
-    
-    
-// }
-
-// listarProductos();
 
 
 
-import { conexionApi } from "./conexionApi.js";  // Asegúrate de que el nombre y la ruta sean correctos
+
+import { conexionApi } from "./conexionApi.js";  
 
 const productos = document.querySelector("[data-productos]");
 
